@@ -9,7 +9,7 @@ title.onclick = () => {
 
 error.style.display = "none"
 
-let nombremax = 3
+let nombremax = 1001
 
 let nombreAleatoire = Math.floor(Math.random() * nombremax)
 let coup = 0

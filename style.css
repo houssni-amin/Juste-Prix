@@ -1,0 +1,96 @@
+body {
+  background-color: #232020;
+  margin: 15px;
+}
+
+h1 {
+  margin-top: 40px;
+  color: #ff7315;
+  text-align: center;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 100%;
+  min-height: 40px;
+}
+
+button {
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  width: 20%;
+  border-color: #007bff;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 10px;
+  min-height: 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#formulaire {
+  background-color: wheat;
+  height: 90px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-height: 85px;
+  padding: 35px 15px 15px 15px;
+}
+
+small {
+  color: red;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#instructions {
+  color: white;
+}
+
+.plus {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  text-align: center;
+}
+
+.moins {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 153, 0);
+}
+
+.fini {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  input {
+    font-size: 90%;
+  }
+}
